@@ -1,0 +1,232 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Gradibase",
+    "theme_version": "0.0.1",
+    "theme_author": "Gradiweb",
+    "theme_documentation_url": "https://github.com/gradiweb/dawn",
+    "theme_support_url": "https://github.com/gradiweb/dawn"
+  },
+  {
+    "name": "t:settings_schema.colors.name",
+    "settings": [
+      {
+        "type": "color",
+        "id": "colors_brand",
+        "default": "#14d66f",
+        "label": "Color brand",
+        "info": "To use in a predominant color on the page"
+      },
+      {
+        "type": "header",
+        "content": "Background"
+      },
+      {
+        "type": "color_background",
+        "id": "colors_bg_1",
+        "label": "Principal Background",
+        "default": "linear-gradient(46deg, rgba(57, 190, 227, 1), rgba(20, 214, 111, 1) 60%)"
+      },
+      {
+        "type": "header",
+        "content": "Text"
+      },
+      {
+        "type": "color",
+        "id": "colors_txt",
+        "default": "#000000",
+        "label": "Text body"
+      },
+      {
+        "type": "color",
+        "id": "colors_title",
+        "default": "#000000",
+        "label": "Titles"
+      },
+      {
+        "type": "color",
+        "id": "colors_link",
+        "default": "#39bee3",
+        "label": "Link"
+      },
+      {
+        "type": "header",
+        "content": "Buttons"
+      },
+      {
+        "type": "paragraph",
+        "content": "Customize button 1"
+      },
+      {
+        "type": "color",
+        "id": "colors_btn_color_1",
+        "default": "#000000",
+        "label": "Color 1"
+      },
+      {
+        "type": "color",
+        "id": "colors_btn_bg_1",
+        "default": "#FFFFFF",
+        "label": "Background 1"
+      },
+      {
+        "type": "color",
+        "id": "colors_btn_border_1",
+        "default": "#000000",
+        "label": "Border 1"
+      },
+      {
+        "type": "paragraph",
+        "content": "Customize button 2"
+      },
+      {
+        "type": "color",
+        "id": "colors_btn_color_2",
+        "default": "#FFFFFF",
+        "label": "Color 2"
+      },
+      {
+        "type": "color",
+        "id": "colors_btn_bg_2",
+        "default": "#39BEE3",
+        "label": "Background 2"
+      },
+      {
+        "type": "color",
+        "id": "colors_btn_border_2",
+        "default": "#000000",
+        "label": "Border 2"
+      },
+      {
+        "type": "paragraph",
+        "content": "Customize button 3"
+      },
+      {
+        "type": "color",
+        "id": "colors_btn_color_3",
+        "default": "#FFFFFF",
+        "label": "Color 3"
+      },
+      {
+        "type": "color",
+        "id": "colors_btn_bg_3",
+        "default": "#14D66F",
+        "label": "Background 3"
+      },
+      {
+        "type": "color",
+        "id": "colors_btn_border_3",
+        "default": "#000000",
+        "label": "Border 3"
+      },
+      {
+        "type": "paragraph",
+        "content": "Hover effect"
+      },
+      {
+        "type": "color",
+        "id": "colors_btn_color_hover",
+        "default": "#14D66F",
+        "label": "Color hover"
+      },
+      {
+        "type": "color",
+        "id": "colors_btn_bg_hover",
+        "default": "#FFFFFF",
+        "label": "Background hover"
+      },
+      {
+        "type": "color",
+        "id": "colors_btn_border_hover",
+        "default": "#14D66F",
+        "label": "Border hover"
+      },
+      {
+        "type": "header",
+        "content": "Variants colors"
+      },
+      {
+        "id": "variant_color_textarea",
+        "type": "textarea",
+        "label": "Colours of the variants",
+        "info": "Enter the colour information as in the example. Ex: Black:#000",
+        "default": "Black:#000;<br />Green:#14D66F;<br />Gray:#C4C4C4;",
+        "placeholder": "Colour:#hex<Linefeed>\n\nExample:\nWhite:#fff\nBlack:#000\n..."
+      }
+    ]
+  },
+  {
+    "name": "t:settings_schema.social-media.name",
+    "settings": [
+      {
+        "type": "header",
+        "content": "t:settings_schema.social-media.settings.header.content"
+      },
+      {
+        "type": "text",
+        "id": "social_twitter_link",
+        "label": "t:settings_schema.social-media.settings.social_twitter_link.label",
+        "info": "t:settings_schema.social-media.settings.social_twitter_link.info"
+      },
+      {
+        "type": "text",
+        "id": "social_facebook_link",
+        "label": "t:settings_schema.social-media.settings.social_facebook_link.label",
+        "info": "t:settings_schema.social-media.settings.social_facebook_link.info"
+      },
+      {
+        "type": "text",
+        "id": "social_pinterest_link",
+        "label": "t:settings_schema.social-media.settings.social_pinterest_link.label",
+        "info": "t:settings_schema.social-media.settings.social_pinterest_link.info"
+      },
+      {
+        "type": "text",
+        "id": "social_instagram_link",
+        "label": "t:settings_schema.social-media.settings.social_instagram_link.label",
+        "info": "t:settings_schema.social-media.settings.social_instagram_link.info"
+      },
+      {
+        "type": "text",
+        "id": "social_tiktok_link",
+        "label": "t:settings_schema.social-media.settings.social_tiktok_link.label",
+        "info": "t:settings_schema.social-media.settings.social_tiktok_link.info"
+      },
+      {
+        "type": "text",
+        "id": "social_tumblr_link",
+        "label": "t:settings_schema.social-media.settings.social_tumblr_link.label",
+        "info": "t:settings_schema.social-media.settings.social_tumblr_link.info"
+      },
+      {
+        "type": "text",
+        "id": "social_snapchat_link",
+        "label": "t:settings_schema.social-media.settings.social_snapchat_link.label",
+        "info": "t:settings_schema.social-media.settings.social_snapchat_link.info"
+      },
+      {
+        "type": "text",
+        "id": "social_youtube_link",
+        "label": "t:settings_schema.social-media.settings.social_youtube_link.label",
+        "info": "t:settings_schema.social-media.settings.social_youtube_link.info"
+      },
+      {
+        "type": "text",
+        "id": "social_vimeo_link",
+        "label": "t:settings_schema.social-media.settings.social_vimeo_link.label",
+        "info": "t:settings_schema.social-media.settings.social_vimeo_link.info"
+      }
+    ]
+  },
+  {
+    "name": "t:settings_schema.favicon.name",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "favicon",
+        "label": "t:settings_schema.favicon.settings.favicon.label",
+        "info": "t:settings_schema.favicon.settings.favicon.info"
+      }
+    ]
+  }
+]
