@@ -8,10 +8,10 @@
     %}
 {% endcomment %}
 
-<div class="favourite" id="{{product.id}}">
+<div onload="verifyItemInStorage()" class="favourite" id="{{product.id}}">
   <button product='{{product | json}}' class="favourite__button" onclick="saveFavoriteProducts(this)">
 
   </button>
 </div>
 
-<script src="{{ 'favoriteproduct.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'favoritebutton.js' | asset_url }}" defer="defer"></script>
