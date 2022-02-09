@@ -1,12 +1,24 @@
-# Gradi Theme Base 🛍 🛒
 
-Bienvenido a Gradi Theme Base: Un tema básico desarrollar nuevas tiendas de Shopify a medida
+# Gradi Theme Reto Colaborativo
 
-Este tema de Shopify está hecho para desarrolladores con un perfil de conocomientos básicos en Lenguajes como: Liquid, HTML5, CSS3, y JavaScript.
+## Documentacion:
 
-Mantenido por:
+En este Readme encontrarás la documentación necesaria para poder utilizar el botón de favoritos y todas sus funcionalidades como son listar los productos favoritos y demás.
 
-- @FelipeMerchanGradiweb
-- @crisDevels-gradi
+### add-favourite-button:
 
-Para más detalles consulte la documentación oficial: [Click aquí 👇](https://gradiweb.github.io/shopifyBase_doc/)
+![image](https://user-images.githubusercontent.com/98895092/153215067-10630d12-35be-4efc-b676-d637ebb4ec0a.png)
+
+```
+{% comment %}
+    Renders a favourite button
+    Accepts:
+    - product: {Object} Product Liquid object
+    Usage:
+    {% render "add-favourite-button"
+      product: product
+    %}
+{% endcomment %}
+```
+Para poder utilizar este componente debes hacer render del elemento y pasarle el producto a renderizar, de este modo se puede guardar el producto al momento de hacer el evento click dentro del boton.
+
