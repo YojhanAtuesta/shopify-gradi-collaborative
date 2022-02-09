@@ -1,6 +1,10 @@
 let button = document.querySelectorAll(".favourite__button")
 
 function saveFavoriteProducts(object) {
-    let dataFavorite = object.getAttribute("product") 
-    console.log(dataFavorite);
+    let sendFavoriteProduct = []
+    let productFavorite = object.getAttribute("product") 
+    const dataFavorite =  JSON.parse(productFavorite)
+    sendFavoriteProduct.push(dataFavorite)
+    localStorage.setItem('dataFavoriteProducts', JSON.stringify(sendFavoriteProduct));
+    
 }
