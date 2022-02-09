@@ -53,7 +53,7 @@
       <span>
         {{ product.title }}
       </span>
-    
+
       <span>
         {% render 'price'
           hide_price: hide_price
@@ -66,7 +66,7 @@
   <form
     class="product-card--form"
     action="/cart/add">
-    
+
     <div class="product-card--form-variants">
       {% render 'variants-form'
         product: product
@@ -84,5 +84,8 @@
         {{ 'products.product.sold_out' | t }}
       {%- endif -%}
     </button>
+    {% render "add-favourite-button"
+    product: product
+  %}
   </form>
 </div>
