@@ -1,3 +1,4 @@
-export const hello = (() => {
-  console.log('Hello Gradi Theme Base')
-})()
+
+// export const hello = (() => {
+//   console.log('Hello Gradi Theme Base')
+// })()
